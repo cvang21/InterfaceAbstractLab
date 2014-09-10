@@ -7,14 +7,11 @@ package lab1;
 
 /**
  *
- * @author Ching
+ * @author Ching Vang
  */
-public class Course {
+public abstract class Course {
   
-    public class AdvancedJavaCourse extends Course {
-
-
-    public AdvancedJavaCourse(String courseName, String courseNumber) {
+    public Course(String courseName, String courseNumber) {
  
     }
 
@@ -60,5 +57,4 @@ public class Course {
     }
    
     }
-}
 
