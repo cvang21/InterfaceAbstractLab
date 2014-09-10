@@ -19,10 +19,12 @@ public class Course {
     }
 
     public String getCapitalizedCourseName() {
+        return null;
     
     }
 
     public String getPrerequisites() {
+        return null;
     
     }
 
@@ -35,6 +37,7 @@ public class Course {
     }
 
     public String getCourseName() {
+        return null;
 
     }
 
@@ -43,6 +46,7 @@ public class Course {
     }
 
     public String getCourseNumber() {
+        return null;
 
     }
 
@@ -51,7 +55,10 @@ public class Course {
     }
 
     public double getCredits() {
+        return 0;
 
     }
-    
+   
+    }
 }
+
