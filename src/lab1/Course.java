@@ -10,11 +10,11 @@ package lab1;
  * @author Ching Vang
  */
 public abstract class Course {
-  
-    public Course(String courseName, String courseNumber) {
- 
-    }
-
+    private String courseName;
+    private String courseNumber;
+    private double credits;
+    private String prerequisites;
+    
     public String getCapitalizedCourseName() {
         return null;
     

@@ -10,7 +10,7 @@ public class IntroJavaCourse {
     private String courseName;
     private String courseNumber;
     private double credits;
-    private String prerequisites;
+
 
     public IntroJavaCourse(String courseName, String courseNumber) {
         this.courseName = courseName;
