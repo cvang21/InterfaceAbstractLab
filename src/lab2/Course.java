@@ -5,13 +5,11 @@
  */
 package lab2;
 
-import javax.swing.JOptionPane;
-
 /**
  *
  * @author Ching Vang
  */
-public interface ProgrammingCourse {
+public interface Course {
     
     public abstract String getCourseNumber();
 
@@ -25,5 +23,8 @@ public interface ProgrammingCourse {
 
     public abstract void setCourseName(String courseName);
     
+    public String getPrerequisites();
     
+    public void setPrerequisites(String prerequisites);
+
 }
